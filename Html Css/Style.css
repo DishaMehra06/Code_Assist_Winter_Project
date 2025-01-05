@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+/ Header Section /
+header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+header .btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+header .btn:hover {
+    background: #0056b3;
+}
+
+/* About Section */
+#about {
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+#about h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
