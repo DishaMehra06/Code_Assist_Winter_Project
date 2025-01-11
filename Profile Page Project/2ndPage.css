@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .user-details h2 {
+    margin: 0;
+  }
+  
+  .community-stats, .languages, .skills, .badges {
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+  }
+  
+  .skill-level {
+    margin-bottom: 1rem;
+}
